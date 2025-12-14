@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-#include <math.h>
 
 // konversi desimal ke basis lain
 void konversiDariDesimal(int desimal, int basis) {
@@ -252,3 +251,4 @@ int main() {
 
     return 0;
 }
+
