@@ -8,12 +8,13 @@ Program **Toolkit Asisten Laboratorium Elektro** adalah aplikasi berbasis bahasa
 
 ## Identitas Kelompok
 
-Program Studi: Teknik Telekomunikasi
-Institusi: Institut Teknologi Sepuluh Nopember (ITS)
-Nama Anggota:
-    1. Firyal Hasna Aqilah NRP 5048251010
-    2. Nabila Izzeit Putri Ananta NRP 5048251028
-    3. Hasna Nurdiana NRP 5048251056
+- **Program Studi**: Teknik Telekomunikasi  
+- **Institusi**: Institut Teknologi Sepuluh Nopember (ITS)  
+
+**Anggota Kelompok:**
+1. Firyal Hasna Aqilah — NRP 5048251010  
+2. Nabila Izzet Putri Ananta — NRP 5048251028  
+3. Hasna Nurdiana — NRP 5048251056  
 
 ---
 
@@ -124,45 +125,43 @@ flowchart TD
 
     M --> B
 ```
-
 ---
 
 ### 2. Flowchart Hukum Ohm
 
 ```mermaid
 flowchart TD
-    A([Mulai]) --> B[Tampilkan Menu Hukum Ohm]
-    B --> C{Pilih V / I / R}
+    A([Mulai]) --> B[Pilih Perhitungan]
+    B --> C{Pilihan}
 
-    C -->|V| D[Input Arus (I) dan Hambatan (R)]
-    D --> E[V = I × R]
+    C -->|V| D[Input I dan R]
+    D --> E[Hitung V = I * R]
+    E --> F[Tampilkan V]
 
-    C -->|I| F[Input Tegangan (V) dan Hambatan (R)]
-    F --> G[I = V ÷ R]
+    C -->|I| G[Input V dan R]
+    G --> H[Hitung I = V / R]
+    H --> I[Tampilkan I]
 
-    C -->|R| H[Input Tegangan (V) dan Arus (I)]
-    H --> I[R = V ÷ I]
+    C -->|R| J[Input V dan I]
+    J --> K[Hitung R = V / I]
+    K --> L[Tampilkan R]
 
-    E --> J[Tampilkan Hasil]
-    G --> J
-    I --> J
-
-    J --> K([Kembali ke Menu])
+    F --> M([Kembali ke Menu])
+    I --> M
+    L --> M
 ```
-
 ---
 
-### 3. Flowchart Daya Listrik
+### 3. Flowchart Daya Listrik 
 
 ```mermaid
 flowchart TD
-    A([Mulai]) --> B[Input Tegangan (V)]
-    B --> C[Input Arus (I)]
-    C --> D[P = V × I]
+    A([Mulai]) --> B[Input Tegangan]
+    B --> C[Input Arus]
+    C --> D[Hitung Daya = V * I]
     D --> E[Tampilkan Daya]
     E --> F([Kembali ke Menu])
 ```
-
 ---
 
 ### 4. Flowchart Resistor Seri
@@ -178,7 +177,6 @@ flowchart TD
     E -->|Ya| F[Tampilkan Total Hambatan]
     F --> G([Kembali ke Menu])
 ```
-
 ---
 
 ### 5. Flowchart Resistor Paralel
@@ -187,15 +185,14 @@ flowchart TD
 flowchart TD
     A([Mulai]) --> B[Input Jumlah Resistor]
     B --> C[Input Nilai Resistor]
-    C --> D[Total = Total + (1 / R)]
-    D --> E{Semua Resistor?}
+    C --> D[Total = Total + 1 / R]
+    D --> E{Masih Ada Resistor?}
 
-    E -->|Belum| C
-    E -->|Ya| F[Rtotal = 1 / Total]
-    F --> G[Tampilkan Hambatan Total]
+    E -->|Ya| C
+    E -->|Tidak| F[Rtotal = 1 / Total]
+    F --> G[Tampilkan Rtotal]
     G --> H([Kembali ke Menu])
 ```
-
 ---
 
 ### 6. Flowchart Konversi Bilangan
