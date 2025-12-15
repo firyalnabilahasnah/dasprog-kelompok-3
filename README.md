@@ -32,9 +32,9 @@ Program **Toolkit Asisten Laboratorium Elektro** adalah aplikasi kalkulator berb
 2. **Kalkulator Daya Listrik**
    Kalkulator ini meminta pengguna masukkan nilai tegangan (V) dan arus (I), lalu program akan menghitung daya listriknya (P). Rumus yang dipakai sederhana: P= V*I, jadi hasilnya bisa langsung dilihat dalam satuan watt.
 3. **Kalkulator Rangkaian Seri**
-   Menghitung total hambatan resistor yang disusun secara seri: Rtotal = R1+R2+...+Rn
+   Di menu rangkaian seri, program akan menghitung total hambatan dari beberapa resistor yang disusun satu jalur. Cara kerjanya simpel: semua nilai resistor langsung dijumlahkan. Arusnya sama di semua resistor, tapi kalau satu putus, hasilnya ikut nol alias nggak jalan.
 4. **Kalkulator Rangkaian Paralel**
-   Menghitung total hambatan resistor yang disusun secara paralel: Rtotal = 1/R1+1/R2+...+Rn
+   Di menu rangkaian paralel, program menghitung total hambatan dari resistor yang disusun bercabang. Perhitungannya pakai kebalikan hambatan, jadi hasil akhirnya lebih kecil dari hambatan terkecil. Kelebihannya, kalau satu cabang bermasalah, cabang lain tetap aman.
 5. **Konversi Desimal ke Biner, Oktal, dan Heksadesimal**
    Menu konversi ini dipakai untuk mengubah bilangan desimal ke bentuk biner, oktal, dan heksadesimal sekaligus. Jadi pengguna diminta memasukkan hanya angka desimalnya, nanti program langsung menampilkan hasil konversinya ke bentuk biner, oktal, heksadesimal. Fungsi perhitungannya menggunakan sisa bagi algoritma sisa bagi atau operator modulus.
 6. **Konversi Biner ke Desimal**
@@ -74,5 +74,6 @@ Output : 63
 Input  : 255
 Output : FF
 ```
+
 
 
