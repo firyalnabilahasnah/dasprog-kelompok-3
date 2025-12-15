@@ -55,7 +55,7 @@ Program **Toolkit Asisten Laboratorium Elektro** adalah aplikasi kalkulator berb
 * Perulangan **do-while** untuk menjalankan menu berulang
 * Perulangan **for** dan **while** untuk proses perhitungan
 
-## Library yang Digunakan
+## Library 
 ```c
 #include <stdio.h>   // Input dan output
 #include <string.h>  // Manipulasi string
@@ -74,4 +74,5 @@ Output : 63
 Input  : 255
 Output : FF
 ```
+
 
