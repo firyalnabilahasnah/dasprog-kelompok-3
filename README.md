@@ -17,8 +17,7 @@ Program **Toolkit Asisten Laboratorium Elektro** adalah aplikasi kalkulator berb
    Menghitung Tegangan (V), Arus (I), atau Hambatan (R) berdasarkan dua besaran lainnya.
 
 2. **Nabila**
-   Menghitung daya listrik menggunakan rumus:
-   [ P = V \times I ]
+   Menghitung daya listrik menggunakan rumus: P=V*I
 
 3. **Hasnah**
    Menghitung total hambatan resistor yang disusun secara seri:
@@ -28,14 +27,11 @@ Program **Toolkit Asisten Laboratorium Elektro** adalah aplikasi kalkulator berb
 1. **Kalkulator Hukum Ohm**
    Menghitung Tegangan (V), Arus (I), atau Hambatan (R) berdasarkan dua besaran lainnya.
 2. **Kalkulator Daya Listrik**
-   Menghitung daya listrik menggunakan rumus:
-   [ P = V \times I ]
+   Menghitung daya listrik menggunakan rumus: P = V*I
 3. **Kalkulator Resistor Seri**
-   Menghitung total hambatan resistor yang disusun secara seri:
-   [ R_{total} = R_1 + R_2 + \dots + R_n ]
+   Menghitung total hambatan resistor yang disusun secara seri: Rtotal = R1+R2+...+Rn
 4. **Kalkulator Resistor Paralel**
-   Menghitung total hambatan resistor yang disusun secara paralel:
-   [ R_{total} = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2} + \dots + \frac{1}{R_n}} ]
+   Menghitung total hambatan resistor yang disusun secara paralel: Rtotal = 1/R1+1/R2+...+Rn
 
 ### Utilitas Sistem Digital
 5. **Konversi Desimal ke Biner, Oktal, dan Heksadesimal**
@@ -46,15 +42,14 @@ Program **Toolkit Asisten Laboratorium Elektro** adalah aplikasi kalkulator berb
    Menggunakan metode nilai posisi.
 
 ## Struktur Program
-Program ini disusun menggunakan beberapa fungsi utama, yaitu:
-* **main()**
-  Mengatur alur utama program, menampilkan menu, menerima input pengguna, serta memanggil fungsi sesuai menu yang dipilih.
-* **konversiDariDesimal(int desimal, int basis)**
-  Digunakan untuk mengonversi bilangan desimal ke basis lain (biner, oktal, atau heksadesimal) menggunakan perulangan dan operasi modulus.
-* **konversiKeDesimal(char angka[], int basis)**
-  Digunakan untuk mengonversi bilangan biner, oktal, atau heksadesimal ke desimal dengan memperhitungkan nilai posisi setiap digit.
 
-Selain itu, program menggunakan:
+* **main()**
+  Mengatur alur utama program, menampilkan menu, menerima input, memanggil fungsi sesuai menu yang dipilih.
+* **konversiDariDesimal(int desimal, int basis)**
+  Untuk mengonversi bilangan desimal ke basis lain (biner, oktal, atau heksadesimal) menggunakan perulangan dan algoritma sisa bagi.
+* **konversiKeDesimal(char angka[], int basis)**
+  Untuk mengonversi bilangan biner, oktal, atau heksadesimal ke desimal (menggunakan algoritma nilai posisi setiap digit).
+
 * Percabangan **if - else if - else** untuk pemilihan menu
 * Perulangan **do-while** untuk menjalankan menu berulang
 * Perulangan **for** dan **while** untuk proses perhitungan
@@ -78,7 +73,3 @@ Output : 63
 Input  : 255
 Output : FF
 ```
-
-
-
-
