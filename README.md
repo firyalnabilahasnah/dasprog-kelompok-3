@@ -2,14 +2,15 @@
 
 Program **Toolkit Asisten Laboratorium Elektro** adalah aplikasi kalkulator berbasis bahasa pemograman C yang digunakan untuk membantu praktikan dan asisten laboratorium dalam melakukan verifikasi cepat perhitungan dasar pada mata kuliah **Dasar Rangkaian Elektrik** dan **Sistem Digital**.
 
-- **Program Studi**: Teknik Telekomunikasi  
-- **Institusi**: Institut Teknologi Sepuluh Nopember (ITS)  
-
 **Anggota Kelompok:**
 1. Firyal Hasna Aqilah — NRP 5048251010  
 2. Nabila Izzet Putri Ananta — NRP 5048251028  
 3. Hasnah Nurdiana — NRP 5048251056  
 
+- **Program Studi**: Teknik Telekomunikasi  
+- **Institusi**: Institut Teknologi Sepuluh Nopember (ITS)
+
+- 
 ### Pembagian Tugas 
 1. **Firyal**
    * **Merancang Menu dan Alur Program Keseluruhan**
@@ -23,8 +24,8 @@ Program **Toolkit Asisten Laboratorium Elektro** adalah aplikasi kalkulator berb
    * **Konversi Heksadesimal ke Desimal**
 
 3. **Hasnah**
-    * **Kalkulator Daya Listrik**
    * **Kalkulator Rangkaian Seri**
+   * **Kalkulator Rangkaian Paralel**
 
 ### Penjelasan Sesuai Pembagian Tugas
 1. **Kalkulator Hukum Ohm**
@@ -44,8 +45,7 @@ Program **Toolkit Asisten Laboratorium Elektro** adalah aplikasi kalkulator berb
 9. **Konversi Heksadesimal ke Desimal**
    Program ini mengubah bilangan heksadesimal yang dimasukkan pengguna menjadi bentuk desimal menggunakan metode nilai posisi.
 
-## Struktur Program
-
+### Struktur Program
 * **main()**
   Mengatur alur utama program, menampilkan menu, menerima input, memanggil fungsi sesuai menu yang dipilih.
 * **konversiDariDesimal(int desimal, int basis)**
@@ -57,12 +57,12 @@ Program **Toolkit Asisten Laboratorium Elektro** adalah aplikasi kalkulator berb
 * Perulangan **do-while** untuk menjalankan menu berulang
 * Perulangan **for** dan **while** untuk proses perhitungan
 
-## Library 
+### Library 
 ```c
 #include <stdio.h>   // Input dan output
 #include <string.h>  // Manipulasi string
 ```
-## Contoh Penggunaan
+### Contoh Penggunaan
 **Konversi Oktal ke Desimal**
 
 ```
@@ -76,6 +76,7 @@ Output : 63
 Input  : 255
 Output : FF
 ```
+
 
 
 
