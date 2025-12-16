@@ -1,4 +1,4 @@
-# Toolkit Asisten Laboratorium Elektro (C)
+## Toolkit Asisten Laboratorium Elektro (C)
 
 Program **Toolkit Asisten Laboratorium Elektro** adalah aplikasi kalkulator berbasis bahasa pemograman C yang digunakan untuk membantu praktikan dan asisten laboratorium dalam melakukan verifikasi cepat perhitungan dasar pada mata kuliah **Dasar Rangkaian Elektrik** dan **Sistem Digital**.
 
@@ -10,7 +10,7 @@ Program **Toolkit Asisten Laboratorium Elektro** adalah aplikasi kalkulator berb
 2. Nabila Izzet Putri Ananta — NRP 5048251028  
 3. Hasnah Nurdiana — NRP 5048251056  
 
-## Pembagian Tugas 
+### Pembagian Tugas 
 1. **Firyal**
    * **Merancang Menu dan Alur Program Keseluruhan**
    * **Kalkulator  Hukum Ohm**
@@ -38,9 +38,11 @@ Program **Toolkit Asisten Laboratorium Elektro** adalah aplikasi kalkulator berb
 5. **Konversi Desimal ke Biner, Oktal, dan Heksadesimal**
    Menu konversi ini dipakai untuk mengubah bilangan desimal ke bentuk biner, oktal, dan heksadesimal sekaligus. Jadi pengguna diminta memasukkan hanya angka desimalnya, nanti program langsung menampilkan hasil konversinya ke bentuk biner, oktal, heksadesimal. Fungsi perhitungannya menggunakan sisa bagi algoritma sisa bagi atau operator modulus.
 6. **Konversi Biner ke Desimal**
+   Program ini mengubah bilangan biner yang dimasukkan pengguna menjadi bentuk desimal.
 7. **Konversi Oktal ke Desimal**
-8. **Konversi Heksadesimal ke Desimal**
-   Menggunakan metode nilai posisi.
+   Program ini mengubah bilangan oktal yang dimasukkan pengguna menjadi bentuk desimal.
+9. **Konversi Heksadesimal ke Desimal**
+   Program ini mengubah bilangan heksadesimal yang dimasukkan pengguna menjadi bentuk desimal menggunakan metode nilai posisi.
 
 ## Struktur Program
 
@@ -74,6 +76,7 @@ Output : 63
 Input  : 255
 Output : FF
 ```
+
 
 
 
