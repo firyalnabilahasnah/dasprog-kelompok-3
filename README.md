@@ -7,10 +7,11 @@ Program **Toolkit Asisten Laboratorium Elektro** adalah aplikasi kalkulator berb
 2. Nabila Izzet Putri Ananta — NRP 5048251028  
 3. Hasnah Nurdiana — NRP 5048251056  
 
+
 - **Program Studi**: Teknik Telekomunikasi  
 - **Institusi**: Institut Teknologi Sepuluh Nopember (ITS)
 
-- 
+
 ### Pembagian Tugas 
 1. **Firyal**
    * **Merancang Menu dan Alur Program Keseluruhan**
@@ -76,6 +77,7 @@ Output : 63
 Input  : 255
 Output : FF
 ```
+
 
 
 
